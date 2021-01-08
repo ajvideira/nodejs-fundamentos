@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "repository": "https://github.com/ajvideira/nodejs-fundamentos.git",
   "author": "Jonathan Alba Videira <jonathan.videira@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start-api": "nodemon api/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
