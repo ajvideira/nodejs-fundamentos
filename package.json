@@ -7,7 +7,9 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start-api": "nodemon api/index.js"
+    "start-api": "nodemon api/index.js",
+    "start-streaming": "nodemon streaming.js",
+    "start-cluster": "nodemon cluster.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
