@@ -12,12 +12,12 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["none"]
+    "linebreak-style": ["off"]
   },
   "settings": {
     "import/resolver": {
       "typescript": {
-        "directory": "./tsconfig.json"
+        "project": "./tsconfig.json"
       }
     }
   }
