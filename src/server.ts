@@ -1,8 +1,10 @@
 import express from 'express';
 
-import '@controllers/UserController';
+import UserController from '@controllers/UserController';
 
 const app = express();
+
+UserController.teste();
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
