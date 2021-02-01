@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": ["airbnb-base"],
   "parser": "@typescript-eslint/parser",
@@ -11,11 +12,13 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["none"]
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "typescript": {
+        "directory": "./tsconfig.json"
+      }
     }
   }
 }
